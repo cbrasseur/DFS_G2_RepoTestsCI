@@ -27,7 +27,7 @@ namespace DemoLive.UnitTests
             var result = _calculator.Add(numberOne, numberTwo);
 
             // Assert
-            Assert.AreEqual(5000, result);
+            Assert.AreEqual(expectedResult, result);
         }
 
         [TestMethod]
